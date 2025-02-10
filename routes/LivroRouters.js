@@ -1,6 +1,6 @@
 const express = require('express');
-const LivroController = require('./LivroController');
-const prisma = require('./prismaClient');
+const LivroController = require('../controllers/LivroController'); // Certifique-se de que o caminho está correto
+const prisma = require('../config/prismaClient');
 
 class LivroRouters {
   constructor() {
