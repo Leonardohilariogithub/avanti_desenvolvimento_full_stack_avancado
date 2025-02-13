@@ -31,3 +31,10 @@ http://localhost:3000/
 Ctrl + C para parar servidor no localhost
 http://localhost:3000/livros
 http://localhost:3000/livros/1
+
+Remover dependências e reinstalar(node_modules)
+rm -rf node_modules package-lock.json && npm install
+
+segurança
+npm install cors
+npm install axios

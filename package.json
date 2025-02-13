@@ -4,10 +4,12 @@
   },
   "dependencies": {
     "@prisma/client": "^6.3.1",
-    "bancodedados": "file:",
+    "avanti_desenvolvimento_full_stack_avancado": "file:",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
     "express": "^4.21.2"
   },
-  "name": "bancodedados",
+  "name": "avanti_desenvolvimento_full_stack_avancado",
   "version": "1.0.0",
   "description": "--> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser\r -> npm install prisma --save-dev\r Se você estiver usando o Yarn, você pode usar:\r --> yarn add prisma --dev\r -> npx prisma init\r yarn add @prisma/client\r npx prisma generate",
   "main": "app.js",
